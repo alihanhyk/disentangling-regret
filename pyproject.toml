@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rlerror"
+version = "0.0.0"
+
+dependencies = [
+    "gymnasium",
+    "minigrid",
+    "numpy",
+    "skrl",
+    "torch",
+    "tqdm"
+]
